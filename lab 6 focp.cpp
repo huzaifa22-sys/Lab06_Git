@@ -23,4 +23,4 @@ int main()
     }
     cout << "totalInterest = " << currentBalance - principalAmount;
     
-}
+} //Updated for Git Lab 06
