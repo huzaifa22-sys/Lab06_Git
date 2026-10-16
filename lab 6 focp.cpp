@@ -11,6 +11,12 @@ int main()
     cin >> annualRate;
     cout << "Enter number of years: ";
     cin >> years;
+
+    if (principalAmount <= 0 || annualRate < 0 || years <= 0)
+    {
+        cout << "Invalid input. Please enter valid values."
+            return 0;
+    }
     
     currentBalance = principalAmount;
 
@@ -22,5 +28,6 @@ int main()
         cout << currentBalance << endl;
     }
     cout << "totalInterest = " << currentBalance - principalAmount;
+    return 0;
     
 } //Updated for Git Lab 06
